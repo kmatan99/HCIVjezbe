@@ -1,9 +1,8 @@
 import React from 'react'
  
-import Logo from '../Logo'
-import Navigation from '../Navigation'
-import ContactBar from '../contactBar'
- 
+import Logo from '../../components/logo/index.js'
+import Navigation from '../../components/navigation/index.js'
+import ContactBar from '../../components/contactBar/index.js' 
 import styles from './style.module.css'
  
 const NavigationHeader = ({activeTab}) => (
