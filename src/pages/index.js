@@ -6,7 +6,6 @@ import Footer from '../components/footer/index.js'
 
 const IndexPage = () => (
   <main>
-    <ContactBar />
     <NavigationHeader activeTab = "Home" />
     <Footer />
   </main>

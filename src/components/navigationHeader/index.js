@@ -1,14 +1,19 @@
 import React from 'react'
-
+ 
+import Logo from '../Logo'
+import Navigation from '../Navigation'
+import ContactBar from '../contactBar'
+ 
 import styles from './style.module.css'
-import Logo from '../logo/index.js'
-import Navigation from '../navigation/index.js'
-
-const NavigationHeader = ({ activeTab }) => (
+ 
+const NavigationHeader = ({activeTab}) => (
+  <>
+  <ContactBar />
   <section className={styles.navigationHeader}>
-      <Logo />
-      <Navigation activeTab={activeTab} />
+    <Logo />
+    <Navigation activeTab={activeTab} />
   </section>
+  </>
 )
-
+ 
 export default NavigationHeader
