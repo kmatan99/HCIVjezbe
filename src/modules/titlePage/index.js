@@ -1,7 +1,7 @@
 import React from 'react'
  
-import TitleImage from '../../components/TitleImage'
-import InquiryBlock from '../../components/InquiryBlock'
+import TitleImage from '../../components/titleImage/index.js'
+import InquiryBlock from '../../components/inquiryBlock/index.js'
 import styles from './style.module.css'
  
 const TitlePage = () => (
