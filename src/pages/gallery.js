@@ -1,6 +1,6 @@
 import React from "react"
 import HeaderFooterLayout from "../layouts/headerFooter"
-import SeparatorBar from '../modules/SeparatorBar'
+import SeparatorBar from '../modules/separatorBar'
  
 const PhotoGallery = () => (
     <HeaderFooterLayout activeTab="Photo Gallery">
